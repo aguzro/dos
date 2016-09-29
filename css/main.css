@@ -1,0 +1,608 @@
+/*Generales*/
+@font-face {
+	font-family: "Fresco Stamp";
+	src: url("Fresco Stamp".ttf);
+	font-family: "Nunito-Regular";
+	src: url("Nunito-Regular".ttf);
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Fresco Stamp, serif";
+	letter-spacing: 1px;
+}
+
+.title-s {
+	color: rgb(0, 152, 116);
+	margin-bottom: 3%;
+	font-weight: 600;
+}
+
+.pd-p {
+	padding: 2% 3%;
+}
+
+h1 {
+	font-weight: 800;
+}
+h4 {
+	font-weight: 500;
+	color: rgb(0, 152, 116);
+}
+h5 {
+	font-weight: bold;
+}
+
+.pd-s {
+	padding: 5% 0;
+}
+
+.bg-w {
+	background-color: #fff;
+}
+
+.services {
+	background-color: #EAE6E6;
+}
+
+.btn-m {
+	margin: 5% 0;
+}
+
+
+
+/*Header*/
+
+.navbar-brand img {
+	width: 40%;
+	height: auto;
+}
+.navbar-toggle {
+	border: 1px solid rgb(0, 152, 116);
+}
+
+.icon-bar {
+	background-color: rgb(0, 152, 116)
+}
+
+@media only screen and (max-width: 768px) {
+	.navbar .navbar-header a img {
+		width: 25%;
+		height: auto;
+	}
+
+	.navbar .collapse ul li a{
+		font-size: 12px;
+	}
+	.bg-w {
+		margin-bottom: 5%;
+	}
+}
+
+
+/*Index*/
+.bg-h {
+	background-image: url(../img/Hero-image.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-top: -20px;
+	padding: 9%;
+}
+
+.box-h {
+	background-color: rgba(242, 243, 243, 0.6);
+	padding: 4% 0;
+}
+
+.divider {
+	width: 30px;
+	border:1px solid rgb(0, 152, 116);
+}
+
+
+
+
+
+
+
+
+
+.empresa {
+	width: 100%;
+	height: 400px;
+}
+
+.empresa .e2biz .parrafo {
+	margin: 0 12%;
+}
+
+
+.empresa .e2biz .parrafo p {
+	font-size: 20px;
+	text-align: center;
+}
+
+.servicios {
+	background-color: rgb(248, 249, 249);
+	height: 750px;
+	margin-top: 0;
+}
+
+.servicios .prospect {
+	background-color: rgb(248, 249, 249);
+}
+
+.servicios .text-servicios {
+	background-color: white;
+	padding-top: 6px;
+	height: 200px;
+	margin: 0 0 10px 0;
+}
+
+.servicios .text-servicios h4 {
+	margin-top: 5px;
+	font-size: 15px;
+}
+
+.servicios .text-servicios .parrafo {
+	padding-top: 2px;
+}
+
+.servicios .text-servicios .parrafo p {
+	text-align: center;
+	margin: 0 16px;
+	font-size: 16px;
+}
+
+.servicios .text-servicios .parrafo a p {
+	margin-bottom: 10px;
+}
+
+
+.servicios img, .proyectos img {
+	width: 100%;
+	height: 190px;
+}
+
+
+.proyectos-clientes {
+	height: 600px;
+}
+
+.proyectos-clientes .analisis {
+	height: 120px;
+	width: 100%;
+	float: left;
+}
+
+.proyectos-clientes .analisis img {
+	width: 100%;
+	height: 100px;
+	background-size: 100% 100%;
+}
+
+.proyectos .proy {
+	margin-top: 20px;
+}
+
+.proyectos .imagen {
+	margin: 10px 0;
+}
+
+.proyectos .imagen .parrafo h4 {
+	font-size: 13px;
+}
+
+.proyectos .imagen .parrafo p {
+	font-size: 20px;
+	letter-spacing: normal;
+}
+
+.proyectos .imagen .parrafo h3 {
+	font-size: 18px;
+}
+
+.proyectos .lectura button {
+	margin: 70px 10px;
+	width: 150px;
+}
+
+/*Footer*/
+.footer {
+	background-color: #7E7C7C;
+	color: #fff;
+}
+
+
+.redes-sociales {
+	text-align: center;
+	float: left;
+	margin-top: 20px;
+	font-family: Helvetica;
+}
+
+.redes-sociales .direccion address {
+	font-family: Helvetica;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.redes-sociales .red a, .redes span a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.redes-sociales .red a i, .redes span a i {
+	margin-left: 15px;
+	font-size: 20px;
+}
+
+.fa-facebook {
+	margin-right: 17px;
+}
+
+
+
+/*Quienes Somos*/
+
+#team {
+	visibility: hidden;
+}
+
+.e2biz2 {
+	width: 100%;
+	height: 500px;
+}
+
+.seguir {
+	background-color: #188DCA;
+	color: #fff;
+	padding: 40px 20px;
+}
+
+.seguir .sociales {
+	display: inline-block;
+}
+
+.seguir .sociales .redes {
+	background-color: #fff;
+	float: left;
+	padding: 10px;
+	margin-left: 10px;
+}
+
+.redes span i {
+	color: #188DCA;
+}
+
+
+.descripcion {
+	text-align: center;
+	box-sizing: border-box;
+	margin: 0 13px;
+	padding: 0 10px;
+}
+
+.descripcion .centrado {
+	margin: 0 10%;
+	color: #43C0CA;
+	font-size: 23px;
+	text-align: center;
+}
+
+.descripcion .text-justify {
+	font-size: 15px;
+	padding: 0 7%;
+	letter-spacing: 1px;
+	font-family: Helvetica;
+}
+
+.bg-plome {
+	background-color: #F5F4F4;
+	height: 800px;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.bg-plome h2 {
+	top: -20px;
+}
+.bg-plome .equipo-grupo {
+	width: 100%;
+	float: left;
+	background-size: 100% 100%;
+}
+
+.bg-plome .equipo-grupo .equipo {
+	margin-left: 0;
+}
+
+.equipo .imagen-equipo img {
+	width: 100%;
+	height: 250px;
+	padding: 15px;
+}
+
+.bg-plome .equipo-grupo .equipo .cargo {
+	background: #fff;
+	margin: -20px 0 0 0;
+	width: 85%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.equipo .cargo h5 {
+	color: #999999;
+	font-family: Helvetica;
+	font-size: 15px;
+}
+
+.equipo .cargo h4 a {
+	text-decoration: none;
+	color: #43C0CA;
+	font-size: 15px;
+}
+
+
+
+.team .img-team img {
+	height: 300px;
+	width: 100%;
+	size: 100% 100%;
+	margin-bottom: 30px;
+}
+
+.team .detalle-cargo {
+	margin: 0 13%;
+}
+
+.team .detalle-team {
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.team .detalle-team  .parrafo-team {
+	margin: 5%;
+	color: #43C0CA;
+	text-align: center;
+}
+
+.team .detalle-team  .text-justify {
+	font-family: "Open Sans", Sans-serif;
+	font-size: 14px;
+}
+
+.seguir {
+	background-color: #188DCA;
+	color: #fff;
+	padding: 20px;
+}
+
+.seguir .redes-sociales .title-red {
+	margin: 20px 0;
+}
+
+.seguir .sociales {
+	display: inline-block;
+	text-align: center;
+}
+
+.seguir .sociales .redes {
+	background-color: #fff;
+	float: left;
+	padding: 7px;
+	margin-left: 15px;
+	width: 25%;
+}
+
+.redes span i {
+	color: #188DCA;
+	text-align: center;
+	margin-right: 20px;
+}
+
+
+
+
+
+/*Proyectos y Clientes*/
+
+.titulo-project {
+	background-image: url(../img/Proyectos-clientes.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 250px;
+	width: 100%;
+	background-attachment: fixed;
+
+}
+
+.titulo-project .fondo {
+	margin: 15% 0;
+}
+
+.titulo-project .fondo .procli {
+	margin-top: 23px;
+}
+
+.titulo-project .fondo .procli h5 {
+	font-size: 20px;
+	color: black;
+}
+
+.proyecto {
+	margin: 7% 5% 3% 5%;
+}
+
+.proyecto .mostrar-proyecto {
+	margin: 12px 0;
+}
+
+.proyecto .mostrar-proyecto img {
+	width: 100%;
+	background-size: 100% 100%;
+	height: 300px;
+}
+
+.proyecto .mostrar-proyecto .clientes {
+	margin-top: 20px;
+	font-family: Helvetica;
+}
+
+.proyecto .mostrar-proyecto .clientes p {
+	font-size: 13px;
+}
+
+.proyecto .mostrar-proyecto .clientes .greyy {
+	color: #999999;
+}
+
+.proyecto .mostrar-proyecto .clientes .division {
+	float: left;
+	width: 100%;
+	padding: 10px;
+
+}
+
+.proyecto .mostrar-proyecto .clientes .division a {
+	text-decoration: none;
+	margin-bottom: 40px;
+	font-size: 15px;
+	color: #43C0CA; 
+}
+
+.pagination .pagination-list {
+	width: 100%;
+	margin: 0 5%;
+}
+
+
+/*ocultar proyecto*/
+
+.ocultar {
+	visibility: hidden;
+
+}
+
+.ocultar .clientela .detalle-clientes {
+	margin-top: 20px;
+}
+
+.ocultar .clientela .detalle-clientes h2 {
+	margin: 0;
+}
+
+.carrusel {
+	margin: 0 4%;
+	
+}
+
+.carrusel .item img {
+	width: 100%;
+	height: 350px;
+}
+
+.ocultar .clientela .detalle-clientes .info-clientes {
+	margin: 6%;
+}
+
+.ocultar .clientela .detalle-clientes .info-clientes p {
+
+}
+
+
+
+
+
+
+
+
+/*Trabaja con Nosotros y Contacto*/
+.contacto {
+	background-image: url(../img/Trabaja.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 100%;
+	height: 600px;
+	margin-top: -19px;
+	
+}
+
+.contacto .bg-contacto {
+	background: rgba(101, 115, 35, 0.5);
+	height: 600px;
+}
+
+.contacto .formulario .cv-enviar .btn {
+	left: -20%;
+}
+
+.formulario form {
+	width: 100%;
+	margin: auto;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.formulario input {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0 4%;
+}
+
+.cv-enviar .subida {
+	margin-left: -30px;
+}
+
+@media (width: 500px){
+
+	.cv-enviar input {
+		width: 50%;
+		max-width: 50%;
+	}
+
+	.cv-enviar .subida {
+		width: 100%;
+
+	}
+}
+
+.bg-contacto h6 {
+	color: white;
+	margin-top: 8%;
+	font-size: 20px;	
+}
+
+.e2 {
+	height: 300px;
+	width: 100%;
+}
+
+.e2 h2 {
+	margin-top: 40px;
+}
+
+.e2 .descripcion {
+	width: 100%;
+	height: 280px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.e2 .descripcion p {
+	letter-spacing: normal;
+	font-size: 17px;
+	text-align: center;
+	font-family: "Nunito-Regular", Helvetica;
+	margin: 0 15px;
+}
+
+.btn-submit {
+	color: white;
+}
